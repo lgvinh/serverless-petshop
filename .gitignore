@@ -1,0 +1,10 @@
+*/**/node_modules/
+*/**/package-lock.json
+*/**/jspm_packages/
+*/**/.serverless/
+node_modules
+package-lock.json
+coverage
+.env
+yarn.lock
+*/**/amplify/
