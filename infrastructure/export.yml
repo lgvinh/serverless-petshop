@@ -1,1 +1,3 @@
 petShopPollingBucketName: ${{cf:pet-shop-infrastructure-message-broker-${{self:provider.stage}}.petShopPollingBucketName}}
+
+petShopTableName: ${{cf:pet-shop-infrastructure-database-${{self:provider.stage}}.petShopTableName}}

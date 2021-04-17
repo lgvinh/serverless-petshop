@@ -9,17 +9,26 @@ provider:
   region: ${{self:provider.custom.region}}
   variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
 
+custom:
+  config: ${{file(../../config.${{self:provider.stage}}.yml)}}
+
 resources:
   Resources:
     petShopTable:
       Type: AWS::DynamoDB::Table
       Properties:
+        TableName: ${{self:custom.config.petShopTableName}}
         AttributeDefinitions:
-          - AttributeName: id
+          - AttributeName: species
             AttributeType: S
         KeySchema:
-          - AttributeName: id
+          - AttributeName: species
             KeyType: HASH
         ProvisionedThroughput:
           ReadCapacityUnits: 1
           WriteCapacityUnits: 1
+
+  Outputs:
+    petShopTableName:
+      Value:
+        Ref: petShopTable

@@ -1,100 +1,502 @@
-[{"id":"8b75f31e-6037-49e1-bfe5-06789e52655b","name":"Nile crocodile","type":"Crocodylus niloticus","color":"Turquoise","gender":"Agender","age":29},
-{"id":"b4d0f147-76c9-4398-893c-361cba97687f","name":"Gazelle, thomson's","type":"Gazella thompsonii","color":"Fuscia","gender":"Female","age":2},
-{"id":"ba6d5bd7-9232-4278-96a4-26506324aebd","name":"Kangaroo, western grey","type":"Macropus fuliginosus","color":"Crimson","gender":"Male","age":12},
-{"id":"cfba0883-2772-49df-bf8d-39109d1e4939","name":"Kelp gull","type":"Larus dominicanus","color":"Indigo","gender":"Polygender","age":14},
-{"id":"7fb4f9eb-d869-494e-9a3b-fe8289511bf5","name":"Stork, european","type":"Ciconia ciconia","color":"Green","gender":"Male","age":28},
-{"id":"43db2858-d294-493f-875d-00bbc6e0be4d","name":"Chuckwalla","type":"Sauromalus obesus","color":"Puce","gender":"Agender","age":14},
-{"id":"6344efa0-d68d-4fcf-8478-12f506476e53","name":"California sea lion","type":"Zalophus californicus","color":"Violet","gender":"Genderqueer","age":28},
-{"id":"60f474a0-5745-4a8a-a98e-e1fc0a9e270a","name":"Great horned owl","type":"Bubo virginianus","color":"Aquamarine","gender":"Polygender","age":24},
-{"id":"97c9fdff-3d6a-401a-b991-7c533cb39fc8","name":"Crab-eating raccoon","type":"Procyon cancrivorus","color":"Maroon","gender":"Non-binary","age":28},
-{"id":"475f2838-91f7-4d85-88ea-8405b89075b0","name":"Quoll, spotted-tailed","type":"Dasyurus maculatus","color":"Purple","gender":"Bigender","age":4},
-{"id":"7127f0f0-b803-43ec-842a-609bff54377c","name":"Helmeted guinea fowl","type":"Numida meleagris","color":"Green","gender":"Genderqueer","age":19},
-{"id":"142ad3f5-2d5c-433d-b203-17ea672d1e33","name":"Crown of thorns starfish","type":"Acanthaster planci","color":"Blue","gender":"Female","age":12},
-{"id":"d6d839ea-1506-4ba9-8fbf-7702b06b458d","name":"Monitor, white-throated","type":"Varanus albigularis","color":"Red","gender":"Female","age":27},
-{"id":"f174efc9-3e2c-409b-bb16-a86b67e06e2e","name":"Cormorant, pied","type":"Phalacrocorax varius","color":"Aquamarine","gender":"Female","age":8},
-{"id":"389faa40-c90f-4bd8-ac9d-b25bf592bdb2","name":"Stork, marabou","type":"Leptoptilos crumeniferus","color":"Pink","gender":"Non-binary","age":13},
-{"id":"ea00657f-7b18-46a8-9e4c-573006611d19","name":"Iguana, land","type":"Conolophus subcristatus","color":"Turquoise","gender":"Female","age":19},
-{"id":"51e9bf19-c5dd-434b-adae-878cba3ae361","name":"Gull, kelp","type":"Larus dominicanus","color":"Maroon","gender":"Genderfluid","age":22},
-{"id":"4f163a02-ed87-4f28-9d15-820c8cf99164","name":"African darter","type":"Anhinga rufa","color":"Orange","gender":"Female","age":1},
-{"id":"17c430b8-e6ea-4ea4-afd2-b4137938be56","name":"Little heron","type":"Butorides striatus","color":"Teal","gender":"Genderfluid","age":23},
-{"id":"093ab314-1dab-4c23-8bf2-877cb0585b70","name":"Black-footed ferret","type":"Mustela nigripes","color":"Blue","gender":"Genderqueer","age":14},
-{"id":"edc3d3ce-8912-47c3-8fe2-48e4d2fb7c3c","name":"Dragon, komodo","type":"Varanus komodensis","color":"Green","gender":"Female","age":21},
-{"id":"6c1a7c1e-55a6-47f7-b953-ced9085bba77","name":"Sheep, american bighorn","type":"Ovis canadensis","color":"Puce","gender":"Non-binary","age":16},
-{"id":"f28aa755-c470-4f1d-9ce5-3a4068d10e13","name":"Nyala","type":"Tragelaphus angasi","color":"Violet","gender":"Genderqueer","age":5},
-{"id":"b7dc7074-e3bb-4ef3-b984-c295881dd963","name":"Cereopsis goose","type":"Cereopsis novaehollandiae","color":"Puce","gender":"Genderfluid","age":13},
-{"id":"9f6118ec-271e-4d51-a912-90512789cd90","name":"Nuthatch, red-breasted","type":"Sitta canadensis","color":"Mauv","gender":"Non-binary","age":11},
-{"id":"7669030b-8c3d-4503-98ab-8d7c6422aec3","name":"Bat, madagascar fruit","type":"Pteropus rufus","color":"Indigo","gender":"Bigender","age":19},
-{"id":"223eccd4-d986-48a0-92d5-79c572c791a1","name":"Kafue flats lechwe","type":"Kobus leche robertsi","color":"Puce","gender":"Polygender","age":10},
-{"id":"c4eeb6ae-f1a0-4f1b-a0d5-bcf4710dc1a2","name":"Dragon, frilled","type":"Chlamydosaurus kingii","color":"Orange","gender":"Genderqueer","age":20},
-{"id":"66e192ec-07eb-4b47-bb63-c67ec9805711","name":"Otter, giant","type":"Pteronura brasiliensis","color":"Green","gender":"Female","age":22},
-{"id":"da85a67b-aa7f-4206-8c30-40cde65ccab3","name":"Ring-tailed lemur","type":"Lemur catta","color":"Crimson","gender":"Genderfluid","age":27},
-{"id":"ed7ff66f-1261-4122-a0e9-c192da4c32fb","name":"Red kangaroo","type":"Macropus rufus","color":"Aquamarine","gender":"Genderfluid","age":16},
-{"id":"8c6bcb53-a3cf-4ce9-a23c-9346e48aae8a","name":"Pine squirrel","type":"Tamiasciurus hudsonicus","color":"Red","gender":"Bigender","age":5},
-{"id":"58d0d339-449f-494e-b899-7053ec8114fa","name":"Banded mongoose","type":"Mungos mungo","color":"Green","gender":"Genderqueer","age":12},
-{"id":"41843107-1299-44ee-83c1-c5bc3d8b9edd","name":"Olive baboon","type":"Papio cynocephalus","color":"Green","gender":"Male","age":6},
-{"id":"d00c2116-7b0b-41d4-bca0-9eafd45a977b","name":"Wallaby, tammar","type":"Macropus eugenii","color":"Indigo","gender":"Agender","age":17},
-{"id":"07b29eba-f491-4749-a686-ca148fb2dbd1","name":"Defassa waterbuck","type":"Kobus defassa","color":"Khaki","gender":"Polygender","age":15},
-{"id":"b5dfeab8-1494-45ff-ad09-29975cc7179f","name":"Cape cobra","type":"Naja nivea","color":"Aquamarine","gender":"Non-binary","age":25},
-{"id":"59d6d981-b683-4fe3-8b3d-c0375deae5e0","name":"Siskin, yellow-rumped","type":"Carduelis uropygialis","color":"Fuscia","gender":"Polygender","age":14},
-{"id":"e4a39af9-7cdf-4e04-b82c-c953b0ec3019","name":"Columbian rainbow boa","type":"Epicrates cenchria maurus","color":"Indigo","gender":"Male","age":6},
-{"id":"7dbf0c65-256a-4dbe-b54d-0eedb30a358c","name":"Cat, kaffir","type":"Felis silvestris lybica","color":"Indigo","gender":"Polygender","age":21},
-{"id":"124087f1-22ad-44a5-a30f-c981d81c472c","name":"Giant armadillo","type":"Priodontes maximus","color":"Maroon","gender":"Non-binary","age":21},
-{"id":"5873d22f-3344-4906-bfcc-426ee4551911","name":"Nelson ground squirrel","type":"Ammospermophilus nelsoni","color":"Turquoise","gender":"Female","age":13},
-{"id":"a209a967-1a8d-4aa9-9eee-21cc4a21d34f","name":"Snake, carpet","type":"Morelia spilotes variegata","color":"Turquoise","gender":"Genderqueer","age":24},
-{"id":"093c56cc-93d2-46d1-bf2d-f65e2e7e306d","name":"Antelope ground squirrel","type":"Ammospermophilus nelsoni","color":"Indigo","gender":"Bigender","age":3},
-{"id":"65812a04-c1f0-4e58-bc04-2eac50f012c9","name":"Eurasian badger","type":"Meles meles","color":"Orange","gender":"Genderfluid","age":13},
-{"id":"eaa469b5-0aab-4041-8733-2e6d61d7c610","name":"Baleen whale","type":"Eubalaena australis","color":"Maroon","gender":"Polygender","age":3},
-{"id":"497ce52b-4455-4d1e-b698-c1a852857f80","name":"Wattled crane","type":"Bugeranus caruncalatus","color":"Mauv","gender":"Agender","age":9},
-{"id":"79bfccce-6636-4a07-93dd-b5c362586ed5","name":"American black bear","type":"Ursus americanus","color":"Khaki","gender":"Male","age":11},
-{"id":"16d3bd92-e37e-48e8-a5bc-cc1e1c3592f3","name":"Yellow baboon","type":"Papio cynocephalus","color":"Aquamarine","gender":"Bigender","age":4},
-{"id":"c9576161-0432-49ec-a51c-b33444f90fe7","name":"Sage hen","type":"Centrocercus urophasianus","color":"Yellow","gender":"Agender","age":6},
-{"id":"66bfca6c-12c1-48d3-af6d-6987f4eb667f","name":"American bighorn sheep","type":"Ovis canadensis","color":"Khaki","gender":"Male","age":21},
-{"id":"aa6a13d2-3f42-4c7c-9303-1860181619f3","name":"South American meadowlark (unidentified)","type":"unavailable","color":"Crimson","gender":"Agender","age":28},
-{"id":"750a08b2-bc22-4188-ba42-33446af187b8","name":"Macaw, blue and yellow","type":"Ara ararauna","color":"Violet","gender":"Genderqueer","age":11},
-{"id":"6890ea61-d503-4ca0-ba10-1ac478489a1e","name":"Egyptian cobra","type":"Naja haje","color":"Violet","gender":"Polygender","age":22},
-{"id":"68f3cc7a-04f9-4cb8-9e30-31fd955d65d1","name":"Vulture, oriental white-backed","type":"Gyps bengalensis","color":"Crimson","gender":"Polygender","age":3},
-{"id":"f1d94e23-1d79-4349-8d67-26979de2a817","name":"Greater roadrunner","type":"Geococcyx californianus","color":"Orange","gender":"Male","age":5},
-{"id":"ae0ae2a9-48c9-41f5-a197-423c2c0b7f41","name":"Sociable weaver","type":"Philetairus socius","color":"Indigo","gender":"Polygender","age":1},
-{"id":"bd98b8c8-7aba-4f4a-a1c4-44070269619b","name":"Peccary, white-lipped","type":"Tayassu pecari","color":"Khaki","gender":"Male","age":1},
-{"id":"2a0bb9d2-15ee-47f3-8412-bc896bc81b4b","name":"Pademelon, red-legged","type":"Thylogale stigmatica","color":"Puce","gender":"Non-binary","age":27},
-{"id":"52865957-3acf-4093-a60c-573fe318e82c","name":"Egret, snowy","type":"Egretta thula","color":"Yellow","gender":"Genderqueer","age":14},
-{"id":"7f460634-85a5-459c-9e46-39db8105e214","name":"African elephant","type":"Loxodonta africana","color":"Puce","gender":"Non-binary","age":11},
-{"id":"99e6330a-63ed-4ba9-bc03-452be318f31e","name":"Bird (unidentified)","type":"unavailable","color":"Crimson","gender":"Genderfluid","age":1},
-{"id":"e3735395-6e81-422f-83ff-69644e6e65c0","name":"Brocket, brown","type":"Mazama gouazoubira","color":"Blue","gender":"Genderqueer","age":14},
-{"id":"46cd6129-adc7-4b48-8aa6-0006153a35de","name":"Squirrel, african bush","type":"Paraxerus cepapi","color":"Maroon","gender":"Male","age":26},
-{"id":"6f74e7bc-2558-4910-864a-cd6d738201a3","name":"Rhinoceros, black","type":"Diceros bicornis","color":"Aquamarine","gender":"Non-binary","age":18},
-{"id":"07a3c50a-3378-496c-b23c-70662ae02e19","name":"Langur, gray","type":"Semnopithecus entellus","color":"Aquamarine","gender":"Male","age":9},
-{"id":"b38adc62-1782-4490-84b6-26d2c760605c","name":"Barrows goldeneye","type":"Bucephala clangula","color":"Aquamarine","gender":"Bigender","age":6},
-{"id":"3de9f8ce-70d1-4d28-b412-5839be8bec6b","name":"Sloth, pale-throated three-toed","type":"Bradypus tridactylus","color":"Indigo","gender":"Genderqueer","age":22},
-{"id":"18a4cd11-fda1-40e5-a50c-8ebf48bc3db4","name":"Greylag goose","type":"Anser anser","color":"Mauv","gender":"Polygender","age":25},
-{"id":"f2d8a8f8-fb96-49c6-b983-b3e87a98350b","name":"Wallaby, bennett's","type":"Macropus rufogriseus","color":"Violet","gender":"Genderfluid","age":12},
-{"id":"6aa8417e-fce8-4e67-8ff8-af65d3445abe","name":"Otter, north american river","type":"Lutra canadensis","color":"Mauv","gender":"Genderfluid","age":28},
-{"id":"16de4712-da9b-4ad8-b18e-63c4e42952b6","name":"Common boubou shrike","type":"Laniarius ferrugineus","color":"Teal","gender":"Female","age":1},
-{"id":"e0f1dc6e-388d-40a9-8e75-c9bee59ad04a","name":"Owl, madagascar hawk","type":"Ninox superciliaris","color":"Fuscia","gender":"Genderfluid","age":25},
-{"id":"cc4b7d7c-2807-4956-b353-42c5c2e3a45b","name":"Wapiti, elk,","type":"Cervus canadensis","color":"Purple","gender":"Female","age":1},
-{"id":"d151b270-384e-4cd7-9179-0e02d8303ccc","name":"Iguana, land","type":"Conolophus subcristatus","color":"Aquamarine","gender":"Male","age":23},
-{"id":"a3a36bcb-438a-4a2e-a2d6-044e77ab4153","name":"Genoveva","type":"Junonia genoveua","color":"Blue","gender":"Bigender","age":11},
-{"id":"08c34107-7662-4812-b281-ac6ccb6a7c0a","name":"Vulture, black","type":"Aegypius tracheliotus","color":"Orange","gender":"Female","age":28},
-{"id":"28b7e59a-e72d-4500-a49f-1b9686264d86","name":"Wildebeest, blue","type":"Connochaetus taurinus","color":"Fuscia","gender":"Genderfluid","age":7},
-{"id":"f4f8b1f1-194a-4520-9bfb-6d295222a763","name":"Boat-billed heron","type":"Cochlearius cochlearius","color":"Orange","gender":"Male","age":17},
-{"id":"09a23a0e-793b-4574-ada1-be27c58e3fca","name":"Sage grouse","type":"Centrocercus urophasianus","color":"Indigo","gender":"Non-binary","age":26},
-{"id":"7c130d62-c9a8-41c5-af03-950ff2d8238d","name":"Waved albatross","type":"Diomedea irrorata","color":"Puce","gender":"Genderqueer","age":8},
-{"id":"8a5cd34c-c6a2-416a-8dda-b3e2f0d0a85c","name":"Tiger cat","type":"Dasyurus maculatus","color":"Turquoise","gender":"Non-binary","age":19},
-{"id":"7c63e6c3-db53-4566-8235-165d048e657a","name":"Lizard, frilled","type":"Chlamydosaurus kingii","color":"Turquoise","gender":"Bigender","age":8},
-{"id":"aa5a09d8-6f67-405c-ad28-bf5243d2733f","name":"Northern fur seal","type":"Callorhinus ursinus","color":"Red","gender":"Genderqueer","age":11},
-{"id":"14104886-c549-4eaa-b650-c3d16a722524","name":"Red brocket","type":"Mazama americana","color":"Crimson","gender":"Genderfluid","age":4},
-{"id":"7ba30021-3657-4f2e-bdd0-e48c58feb308","name":"Bettong, brush-tailed","type":"Bettongia penicillata","color":"Green","gender":"Genderfluid","age":24},
-{"id":"4d3b5e64-7fb1-4917-a5e0-b4660cbbd060","name":"Lesser flamingo","type":"Phoeniconaias minor","color":"Pink","gender":"Agender","age":28},
-{"id":"a79a60d5-3004-43af-bd52-32cf7493db48","name":"Small-clawed otter","type":"Aonyx cinerea","color":"Maroon","gender":"Bigender","age":23},
-{"id":"30b773fb-fd23-473f-a93e-217b970392f0","name":"Bleu, blue-breasted cordon","type":"Uraeginthus angolensis","color":"Fuscia","gender":"Genderqueer","age":28},
-{"id":"56e4339d-3e2d-4aca-9136-1c58fa4955cb","name":"Cottonmouth","type":"Agkistrodon piscivorus","color":"Indigo","gender":"Genderqueer","age":2},
-{"id":"caa3358b-b898-44bf-8189-6f868dc80227","name":"Crab-eating raccoon","type":"Procyon cancrivorus","color":"Mauv","gender":"Genderfluid","age":23},
-{"id":"e46880d2-3afe-44d9-bbad-c2b6e533facc","name":"Bunting, crested","type":"Melophus lathami","color":"Violet","gender":"Agender","age":3},
-{"id":"bad10b32-bc94-45df-919d-49f683227114","name":"Elephant, asian","type":"Elephas maximus bengalensis","color":"Mauv","gender":"Polygender","age":10},
-{"id":"b0788278-2fde-4b4b-baaa-ba80e3ca2582","name":"Arboral spiny rat","type":"Echimys chrysurus","color":"Pink","gender":"Polygender","age":29},
-{"id":"ed67df1c-38fa-471c-997b-05ac56fc70e5","name":"Duck, blue","type":"Hymenolaimus malacorhynchus","color":"Puce","gender":"Bigender","age":26},
-{"id":"0c6e335c-d22e-455e-af7e-bf1224dec0cf","name":"Dingo","type":"Canis dingo","color":"Red","gender":"Agender","age":9},
-{"id":"da5b78b3-b5cd-44fb-a694-b58297880c83","name":"Purple grenadier","type":"Uraeginthus granatina","color":"Green","gender":"Male","age":10},
-{"id":"89de827b-f254-4399-9608-6a5b244f60d0","name":"Netted rock dragon","type":"Ctenophorus ornatus","color":"Purple","gender":"Polygender","age":14},
-{"id":"2550f32d-8bee-4465-823b-ea01e72b32e4","name":"Marabou stork","type":"Leptoptilos crumeniferus","color":"Violet","gender":"Polygender","age":17},
-{"id":"cfe4c772-a05d-477d-acea-a2f9d00e9808","name":"Common genet","type":"Genetta genetta","color":"Red","gender":"Female","age":3}]
+[
+  {
+    "species": "dog",
+    "name": "Oryx gazella",
+    "age": 6
+  },
+  {
+    "species": "dog",
+    "name": "unavailable",
+    "age": 24
+  },
+  {
+    "species": "dog",
+    "name": "Panthera leo",
+    "age": 18
+  },
+  {
+    "species": "dog",
+    "name": "Geococcyx californianus",
+    "age": 8
+  },
+  {
+    "species": "dog",
+    "name": "Mustela nigripes",
+    "age": 10
+  },
+  {
+    "species": "dog",
+    "name": "Macropus rufogriseus",
+    "age": 17
+  },
+  {
+    "species": "dog",
+    "name": "Cebus albifrons",
+    "age": 19
+  },
+  {
+    "species": "dog",
+    "name": "Varanus sp.",
+    "age": 16
+  },
+  {
+    "species": "dog",
+    "name": "Crotalus triseriatus",
+    "age": 27
+  },
+  {
+    "species": "dog",
+    "name": "Coendou prehensilis",
+    "age": 3
+  },
+  {
+    "species": "dog",
+    "name": "Orcinus orca",
+    "age": 4
+  },
+  {
+    "species": "dog",
+    "name": "Centrocercus urophasianus",
+    "age": 15
+  },
+  {
+    "species": "dog",
+    "name": "Macropus agilis",
+    "age": 2
+  },
+  {
+    "species": "dog",
+    "name": "Terrapene carolina",
+    "age": 26
+  },
+  {
+    "species": "dog",
+    "name": "Salvadora hexalepis",
+    "age": 29
+  },
+  {
+    "species": "dog",
+    "name": "Macaca nemestrina",
+    "age": 15
+  },
+  {
+    "species": "dog",
+    "name": "Uraeginthus bengalus",
+    "age": 10
+  },
+  {
+    "species": "dog",
+    "name": "Alcelaphus buselaphus cokii",
+    "age": 29
+  },
+  {
+    "species": "dog",
+    "name": "Tyto novaehollandiae",
+    "age": 20
+  },
+  {
+    "species": "dog",
+    "name": "Hymenolaimus malacorhynchus",
+    "age": 9
+  },
+  {
+    "species": "dog",
+    "name": "Corallus hortulanus cooki",
+    "age": 15
+  },
+  {
+    "species": "dog",
+    "name": "Pycnonotus nigricans",
+    "age": 29
+  },
+  {
+    "species": "dog",
+    "name": "Nycticorax nycticorax",
+    "age": 19
+  },
+  {
+    "species": "dog",
+    "name": "Felis pardalis",
+    "age": 13
+  },
+  {
+    "species": "dog",
+    "name": "Larus dominicanus",
+    "age": 7
+  },
+  {
+    "species": "dog",
+    "name": "Casmerodius albus",
+    "age": 20
+  },
+  {
+    "species": "dog",
+    "name": "unavailable",
+    "age": 4
+  },
+  {
+    "species": "dog",
+    "name": "Picoides pubescens",
+    "age": 1
+  },
+  {
+    "species": "dog",
+    "name": "Kobus leche robertsi",
+    "age": 12
+  },
+  {
+    "species": "dog",
+    "name": "Oreotragus oreotragus",
+    "age": 23
+  },
+  {
+    "species": "dog",
+    "name": "Vanessa indica",
+    "age": 13
+  },
+  {
+    "species": "dog",
+    "name": "Dasypus novemcinctus",
+    "age": 8
+  },
+  {
+    "species": "dog",
+    "name": "Papio cynocephalus",
+    "age": 28
+  },
+  {
+    "species": "cat",
+    "name": "Macaca fuscata",
+    "age": 30
+  },
+  {
+    "species": "cat",
+    "name": "Hystrix cristata",
+    "age": 6
+  },
+  {
+    "species": "cat",
+    "name": "Paradoxurus hermaphroditus",
+    "age": 20
+  },
+  {
+    "species": "cat",
+    "name": "Helogale undulata",
+    "age": 11
+  },
+  {
+    "species": "cat",
+    "name": "Myrmecophaga tridactyla",
+    "age": 21
+  },
+  {
+    "species": "cat",
+    "name": "Plectopterus gambensis",
+    "age": 13
+  },
+  {
+    "species": "cat",
+    "name": "Gorilla gorilla",
+    "age": 1
+  },
+  {
+    "species": "cat",
+    "name": "Cebus albifrons",
+    "age": 25
+  },
+  {
+    "species": "cat",
+    "name": "Macropus eugenii",
+    "age": 5
+  },
+  {
+    "species": "cat",
+    "name": "Agelaius phoeniceus",
+    "age": 13
+  },
+  {
+    "species": "cat",
+    "name": "Graspus graspus",
+    "age": 17
+  },
+  {
+    "species": "cat",
+    "name": "Oreotragus oreotragus",
+    "age": 10
+  },
+  {
+    "species": "cat",
+    "name": "Chlidonias leucopterus",
+    "age": 22
+  },
+  {
+    "species": "cat",
+    "name": "Oncorhynchus nerka",
+    "age": 20
+  },
+  {
+    "species": "cat",
+    "name": "Lasiorhinus latifrons",
+    "age": 21
+  },
+  {
+    "species": "cat",
+    "name": "Papio cynocephalus",
+    "age": 10
+  },
+  {
+    "species": "cat",
+    "name": "Diomedea irrorata",
+    "age": 16
+  },
+  {
+    "species": "cat",
+    "name": "Lutra canadensis",
+    "age": 20
+  },
+  {
+    "species": "cat",
+    "name": "Francolinus coqui",
+    "age": 17
+  },
+  {
+    "species": "cat",
+    "name": "Galictis vittata",
+    "age": 10
+  },
+  {
+    "species": "cat",
+    "name": "Creagrus furcatus",
+    "age": 19
+  },
+  {
+    "species": "cat",
+    "name": "unavailable",
+    "age": 18
+  },
+  {
+    "species": "cat",
+    "name": "Notechis semmiannulatus",
+    "age": 6
+  },
+  {
+    "species": "cat",
+    "name": "Varanus sp.",
+    "age": 21
+  },
+  {
+    "species": "cat",
+    "name": "Limosa haemastica",
+    "age": 25
+  },
+  {
+    "species": "cat",
+    "name": "Acridotheres tristis",
+    "age": 13
+  },
+  {
+    "species": "cat",
+    "name": "Tockus flavirostris",
+    "age": 2
+  },
+  {
+    "species": "cat",
+    "name": "Gyps bengalensis",
+    "age": 6
+  },
+  {
+    "species": "cat",
+    "name": "Cacatua tenuirostris",
+    "age": 20
+  },
+  {
+    "species": "cat",
+    "name": "Felis pardalis",
+    "age": 12
+  },
+  {
+    "species": "cat",
+    "name": "Lama guanicoe",
+    "age": 25
+  },
+  {
+    "species": "cat",
+    "name": "Alopochen aegyptiacus",
+    "age": 11
+  },
+  {
+    "species": "cat",
+    "name": "Canis aureus",
+    "age": 9
+  },
+  {
+    "species": "turtle",
+    "name": "Pseudalopex gymnocercus",
+    "age": 1
+  },
+  {
+    "species": "turtle",
+    "name": "Pytilia melba",
+    "age": 16
+  },
+  {
+    "species": "turtle",
+    "name": "Phascogale calura",
+    "age": 14
+  },
+  {
+    "species": "turtle",
+    "name": "Lepus townsendii",
+    "age": 29
+  },
+  {
+    "species": "turtle",
+    "name": "Eolophus roseicapillus",
+    "age": 11
+  },
+  {
+    "species": "turtle",
+    "name": "Ursus americanus",
+    "age": 30
+  },
+  {
+    "species": "turtle",
+    "name": "Bassariscus astutus",
+    "age": 20
+  },
+  {
+    "species": "turtle",
+    "name": "Chauna torquata",
+    "age": 23
+  },
+  {
+    "species": "turtle",
+    "name": "Haliaeetus leucoryphus",
+    "age": 22
+  },
+  {
+    "species": "turtle",
+    "name": "Phoenicopterus ruber",
+    "age": 8
+  },
+  {
+    "species": "turtle",
+    "name": "Fratercula corniculata",
+    "age": 20
+  },
+  {
+    "species": "turtle",
+    "name": "Nycticorax nycticorax",
+    "age": 22
+  },
+  {
+    "species": "turtle",
+    "name": "Speotyte cuniculata",
+    "age": 8
+  },
+  {
+    "species": "turtle",
+    "name": "Neophoca cinerea",
+    "age": 4
+  },
+  {
+    "species": "turtle",
+    "name": "Trichosurus vulpecula",
+    "age": 29
+  },
+  {
+    "species": "turtle",
+    "name": "Geospiza sp.",
+    "age": 26
+  },
+  {
+    "species": "turtle",
+    "name": "Climacteris melanura",
+    "age": 11
+  },
+  {
+    "species": "turtle",
+    "name": "Ursus maritimus",
+    "age": 13
+  },
+  {
+    "species": "turtle",
+    "name": "Aquila chrysaetos",
+    "age": 9
+  },
+  {
+    "species": "turtle",
+    "name": "Canis lupus",
+    "age": 14
+  },
+  {
+    "species": "turtle",
+    "name": "Damaliscus dorcas",
+    "age": 3
+  },
+  {
+    "species": "turtle",
+    "name": "Pycnonotus barbatus",
+    "age": 6
+  },
+  {
+    "species": "turtle",
+    "name": "Recurvirostra avosetta",
+    "age": 16
+  },
+  {
+    "species": "turtle",
+    "name": "Gyps bengalensis",
+    "age": 7
+  },
+  {
+    "species": "turtle",
+    "name": "Paraxerus cepapi",
+    "age": 15
+  },
+  {
+    "species": "turtle",
+    "name": "Raphicerus campestris",
+    "age": 20
+  },
+  {
+    "species": "turtle",
+    "name": "Nesomimus trifasciatus",
+    "age": 28
+  },
+  {
+    "species": "turtle",
+    "name": "Graspus graspus",
+    "age": 25
+  },
+  {
+    "species": "turtle",
+    "name": "Zalophus californicus",
+    "age": 23
+  },
+  {
+    "species": "turtle",
+    "name": "Lophoaetus occipitalis",
+    "age": 23
+  },
+  {
+    "species": "turtle",
+    "name": "Dasyurus maculatus",
+    "age": 22
+  },
+  {
+    "species": "turtle",
+    "name": "Otocyon megalotis",
+    "age": 19
+  },
+  {
+    "species": "turtle",
+    "name": "Bettongia penicillata",
+    "age": 5
+  },
+  {
+    "species": "turtle",
+    "name": "Panthera leo persica",
+    "age": 8
+  }
+]

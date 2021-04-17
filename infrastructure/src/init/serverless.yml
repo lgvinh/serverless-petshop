@@ -11,15 +11,14 @@ provider:
 
 custom:
   config: ${{file(../../config.${{self:provider.stage}}.yml)}}
+# resources:
+#   Resources:
+#     petShopPollingBucket:
+#       Type: AWS::S3::Bucket
+#       Properties:
+#         BucketName: ${{self:custom.config.petShopPollingBucketName}}
 
-resources:
-  Resources:
-    petShopPollingBucket:
-      Type: AWS::S3::Bucket
-      Properties:
-        BucketName: ${{self:custom.config.petShopPollingBucketName}}
-
-  Outputs:
-    petShopPollingBucketName:
-      Value:
-        Ref: petShopPollingBucket
+#   Outputs:
+#     petShopPollingBucketName:
+#       Value:
+#         Ref: petShopPollingBucket
