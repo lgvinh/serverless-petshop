@@ -1,0 +1,5 @@
+# S3
+petShopPollingBucketName: pet-shop-polling-bucket
+
+# Database
+petShopTableName: petShopTable

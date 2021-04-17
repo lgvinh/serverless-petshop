@@ -1,0 +1,14 @@
+service: pet-shop-feed-s3-data-sync
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  custom: ${{file(../../../config/serverless-config.yml)}}
+  infrastructure: ${{file(../../../infrastructure/export.yml)}}
+  stage: ${{self:provider.custom.stage}}
+  profile: ${{self:provider.custom.profile}}
+  region: ${{self:provider.custom.region}}
+  variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
+
+# functions:
+#   handler:

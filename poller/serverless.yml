@@ -1,0 +1,22 @@
+service: pet-shop-poller
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  custom: ${{file(../config/serverless-config.yml)}}
+  infrastructure: ${{file(../infrastructure/export.yml)}}
+  stage: ${{self:provider.custom.stage}}
+  profile: ${{self:provider.custom.profile}}
+  region: ${{self:provider.custom.region}}
+  variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
+  iamRoleStatements:
+    - Effect: 'Allow'
+      Action:
+        - 's3:PutObject'
+      Resource: "arn:aws:s3:::${{self:provider.infrastructure.petShopPollingBucketName}}/*"
+  environment:
+    BUCKET: ${{self:provider.infrastructure.petShopPollingBucketName}}
+
+functions:
+  fetchPets:
+    handler: ./src/data-poller/fetchPets.handler

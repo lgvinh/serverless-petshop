@@ -1,0 +1,25 @@
+service: pet-shop-infrastructure-database
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  custom: ${{file(../../../config/serverless-config.yml)}}
+  stage: ${{self:provider.custom.stage}}
+  profile: ${{self:provider.custom.profile}}
+  region: ${{self:provider.custom.region}}
+  variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
+
+resources:
+  Resources:
+    petShopTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1

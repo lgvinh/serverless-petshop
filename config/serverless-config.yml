@@ -1,0 +1,3 @@
+region: ${{opt:region, 'ap-southeast-1'}}
+profile: ${{opt:profile, 'pet-shop'}}
+stage: ${{opt:stage, 'dev'}}
