@@ -1,4 +1,4 @@
-service: pet-shop-infrastructure-init
+service: pet-shop-feed-layers
 
 provider:
   name: aws
@@ -9,5 +9,15 @@ provider:
   region: ${{self:provider.custom.region}}
   variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
 
-custom:
-  config: ${{file(../../config.${{self:provider.stage}}.yml)}}
+layers:
+  PetShopCommon:
+    path: ./src/petShopLayer
+    description: Layers for pet shop dependencies
+    compatibleRuntimes:
+      - nodejs12.x
+
+resources:
+  Outputs:
+    petShopLayer:
+      Value:  
+        Ref: PetShopCommonLambdaLayer

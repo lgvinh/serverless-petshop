@@ -9,6 +9,37 @@ provider:
   profile: ${{self:provider.custom.profile}}
   region: ${{self:provider.custom.region}}
   variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - 's3:GetObject'
+      Resource: "arn:aws:s3:::${{self:provider.infrastructure.petShopPollingBucketName}}/*"
+    - Effect: Allow
+      Action:
+        - 'dynamodb:BatchWriteItem'
+      Resource:
+        Fn::Join:
+          - ':'
+          - - "arn:aws:dynamodb:${{self:provider.region}}"
+            - Ref: AWS::AccountId
+            - 'table/${{self:provider.environment.PET_TABLE_NAME}}'
+  environment:
+    BUCKET_NAME: ${{self:custom.petShopBucketName}}
+    PET_TABLE_NAME: ${{self:provider.infrastructure.petShopTableName}}
 
-# functions:
-#   handler:
+custom:
+  petShopBucketName: ${{self:provider.infrastructure.petShopPollingBucketName}}
+
+functions:
+  syncPet:
+    handler: ./src/pet.handler
+    layers:
+      - ${{self:provider.infrastructure.petShopLayer}}
+    events:
+      - s3:
+          bucket: ${{self:custom.petShopBucketName}}
+          event: s3:ObjectCreated:*
+          existing: true
+          rules:
+            - prefix: pets/
+            - suffix: .json

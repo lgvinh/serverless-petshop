@@ -1,5 +1,5 @@
 {
-  "name": "pet-shop-feed-s3-data-sync",
+  "name": "pet-shop-layer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "aws-sdk": "^2.888.0",
-    "pet-shop-feed-common": "file:../common",
-    "pet-shop-feed-data-access-layer": "file:../data-access-layer"
+  "dependencies": {
+    "pet-shop-feed-common": "file:../../../../common",
+    "pet-shop-feed-data-access-layer": "file:../../../../data-access-layer"
   }
 }
