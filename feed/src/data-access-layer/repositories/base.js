@@ -36,7 +36,19 @@ class BaseRepository {
       ...options,
       TableName: this.tableName,
       Item: item
-    });
+    }).promise();
+  }
+
+  query(options = {}) {
+    return DynamoDB.query({
+      ...options,
+      TableName: this.tableName
+    }).promise();
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  scan(options = {}) {
+    return DynamoDB.scan(options).promise();
   }
 }
 

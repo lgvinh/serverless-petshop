@@ -1,7 +1,7 @@
-cd ./feed
+cd ./poller
 bash remove.sh
 
-cd ../poller
+cd ../feed
 bash remove.sh
 
 cd ../infrastructure

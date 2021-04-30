@@ -1,0 +1,13 @@
+service: pet-shop-infrastructure-auth
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  custom: ${{file(../../../config/serverless-config.yml)}}
+  stage: ${{self:provider.custom.stage}}
+  profile: ${{self:provider.custom.profile}}
+  region: ${{self:provider.custom.region}}
+  variableSyntax: "\\${{([ ~:a-zA-Z0-9._@\\'\",\\-\\/\\(\\)]+?)}}"
+
+custom:
+  config: ${{file(../../config.${{self:provider.stage}}.yml)}}
